@@ -1,0 +1,19 @@
+{
+  "name": "@ecommerce/web",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist coverage",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.vitest.json"
+  },
+  "dependencies": {
+    "@ecommerce/shared": "workspace:*",
+    "@ecommerce/ui": "workspace:*"
+  }
+}
