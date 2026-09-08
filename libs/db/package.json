@@ -20,6 +20,6 @@
     "typecheck": "tsc --noEmit && tsc -p tsconfig.vitest.json"
   },
   "devDependencies": {
-    "@types/node": "^26.2.0"
+    "@types/node": "^26.4.1"
   }
 }
